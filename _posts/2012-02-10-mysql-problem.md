@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MySQL问题记录
-tags: mysql
+tags: mysql db
 ---
 
 使用MySQL过程中遇到的一些问题记录
