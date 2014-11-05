@@ -1,0 +1,4 @@
+baseurl: http://blog.warningrc.com
+paginate: 5
+paginate_path: "page:num"
+excerpt_separator: "----"

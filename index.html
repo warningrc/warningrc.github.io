@@ -1,0 +1,50 @@
+---
+layout: list
+title: Warning的博客
+---
+{% for post in paginator.posts %}
+<section id="{{ post.id }}" class="post">
+  <h2><a href="{{ post.url }}"> {{ post.title }}</a></h2>
+ <small class="meta">{{ post.date | date:"%Y/%m/%d" }}</small>
+ <div class="content">{{ post.excerpt }}</div>
+<p class="preadmore">
+  <a href="{{ post.url }}" alt="Read More" class="readmore"><span>➥</span>阅读全文</a>
+</p>
+</section>
+<hr/>
+{% endfor %}
+<!-- 分页链接 -->
+<div id="post-pagination" class="pagination">
+　　<span class="page_number">第{{paginator.page}}页/共{{paginator.total_pages}}页</span>
+  {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+        <a href="/">前一页</a>
+      {% else %}
+        <a href="/page{{ paginator.previous_page }}">前一页</a>
+      {% endif %}
+  {% else %}
+      <span>前一页</span>
+  {% endif %}
+
+      {% if paginator.page == 1 %}
+        <span class="current-page">1</span>
+      {% else %}
+        <a href="/">1</a>
+      {% endif %}
+
+    {% for count in (2..paginator.total_pages) %}
+        {% if count == paginator.page %}
+          <span class="current-page">{{ count }}</span>
+        {% else %}
+          <a href="/page{{ count }}">{{ count }}</a>
+        {% endif %}
+    {% endfor %}
+
+  {% if paginator.next_page %}
+      <a href="/page{{ paginator.next_page }}">后一页</a>
+  {% else %}
+      <span>后一页</span>
+  {% endif %}
+
+</div>
+

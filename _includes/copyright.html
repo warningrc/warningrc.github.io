@@ -1,0 +1,8 @@
+<section class="copyright">
+{% if page.origin == nil %}
+<p> 作者：<a href="http://weibo.com/weibowarning">Warning</a></p>
+<p> 版权：使用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" title="查看协议详细信息" target="_blank">CC BY-NC-SA 3.0 许可协议</a>授权</p>
+{% else %}
+<p> 转载自：<a href="{{page.origin}}">{{page.origin}}</a></p>
+{% endif %}
+</section>
