@@ -10,7 +10,7 @@ tags: solr linux
  2. 自动容错
  3. 近实时搜索
  4. 查询时自动负载均衡
-{<1>}![aa](/images/2shard4serverFull.jpg)
+![aa](/images/2shard4serverFull.jpg)
 
 ----
 
