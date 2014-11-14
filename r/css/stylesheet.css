@@ -121,6 +121,10 @@ pre code {
   background-color: #303030;
   border: none;
   padding: 0;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
 }
 
 ul, ol, dl {
