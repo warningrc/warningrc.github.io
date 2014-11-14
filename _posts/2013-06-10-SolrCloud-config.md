@@ -10,7 +10,7 @@ tags: solr linux
  2. 自动容错
  3. 近实时搜索
  4. 查询时自动负载均衡
-![aa](/images/2shard4serverFull.jpg)
+![aa](/r/images/2shard4serverFull.jpg)
 
 ----
 
@@ -505,7 +505,7 @@ zookeeper集群正常，然后我们开始启动solr集群
     . OK 2013年 09月 24日 星期二 18:52:45 CST
 
 启动完成，使用浏览器访问[http://127.0.0.1:8981/solr/#/~cloud][7] 将会看到如下结果:
-{<2>}![abc](/images/solrcloud.jpg)
+{<2>}![abc](/r/images/solrcloud.jpg)
 
 通过上图可以看到，在集群中存在两个core，并且每个core存在两个分片，每个分片下又存在两个节点。由于在第一，二台服务器上的`core.properties`文件中配置了shard=shard2，因此被分配到了第一个分片上。
 
