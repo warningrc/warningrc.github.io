@@ -121,4 +121,4 @@ spring 3.1版本提供了profile配置机制，同时maven对profile也有支持
 通过上述配置,在执行maven命令时加入`-P ${profiles.profile.id}`便可进行不同环境的配置管理.例如打包项目命令:
 
 	mvn  clean package -P localtest  //打包本地测试项目
-	mvn  clean package -P localtest  //打包正是环境项目
+	mvn  clean package -P pro  //打包正是环境项目
