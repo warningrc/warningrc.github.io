@@ -12,7 +12,7 @@ layout: none
     <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
     <managingEditor>{{site.authorEmail}}</managingEditor>
     <webMaster>{{site.authorEmail}}</webMaster>
-    <ttl>60</ttl>{% for post in site.posts %}
+    <ttl>60</ttl>{% for post in site.posts limit:10 %}
     <item>
       <title><![CDATA[{{post.title | xml_escape}}]]></title>{% if post.origin == nil %}
       <author><![CDATA[<a href="{{site.authorUrl}}">{{site.author}}</a>]]></author>{% else %}
