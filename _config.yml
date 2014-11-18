@@ -3,9 +3,9 @@ baseUrl: http://blog.warningrc.com
 baseDescription: Warning的博客
 author: Warning
 authorUrl: http://weibo.com/weibowarning
-authorEmail:childe.wangning@gmail.com
-copyrightUrl:http://creativecommons.org/licenses/by-nc-sa/3.0/cn/
-copyrightTitle:CC BY-NC-SA 3.0 许可协议
+authorEmail: childe.wangning@gmail.com
+copyrightUrl: http://creativecommons.org/licenses/by-nc-sa/3.0/cn/
+copyrightTitle: CC BY-NC-SA 3.0 许可协议
 paginate: 5
 paginate_path: "page:num"
 excerpt_separator: "----"
