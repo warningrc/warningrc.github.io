@@ -1,21 +1,27 @@
 ---
 layout: none
 ---
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>{{ site.name | xml_escape }}</title>
-		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>		
-		<link>{{ site.url }}</link>
-		<atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
-		{% for post in site.posts limit:10 %}
-			<item>
-				<title>{{ post.title | xml_escape }}</title>
-				<description>{{ post.content | xml_escape }}</description>
-				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-				<link>{{ site.url }}{{ post.url }}</link>
-				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-			</item>
-		{% endfor %}
-	</channel>
+  <channel>
+    <title>{{ site.baseTitle | xml_escape }}</title>
+    <link>{{ site.baseUrl }}</link>
+    <description>{{site.baseDescription | xml_escape}}</description>
+    <author><![CDATA[{{site.author}}]]></author>
+    <copyright><![CDATA[{{site.copyrightTitle | xml_escape}}]]></copyright>
+    <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
+    <managingEditor>{{site.authorEmail}}</managingEditor>
+    <webMaster>{{site.authorEmail}}</webMaster>
+    <ttl>60</ttl>{% for post in site.posts %}
+    <item>
+      <title><![CDATA[{{post.title | xml_escape}}]]></title>% if post.origin == nil %}
+      <author><![CDATA[<a href="{{site.authorUrl}}">{{site.author}}</a>]]></author>{% else %}
+      <comments><![CDATA[转载自：<a href="{{page.origin}}">{{page.origin}}</a>]]></comments>
+      <source>{{page.origin}</source>{% endif %}
+      <description><![CDATA[{{post.excerpt | xml_escape}}]]></description>
+      <link>{{ site.baseUrl }}{{ post.url }}</link>
+      <category>{{ post.tags }}</category>
+      <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+    </item>{% endfor %}
+  </channel>
 </rss>
