@@ -18,7 +18,7 @@ layout: none
       <author><![CDATA[<a href="{{site.authorUrl}}">{{site.author}}</a>]]></author>{% else %}
       <comments><![CDATA[转载自：<a href="{{post.origin}}">{{post.origin}}</a>]]></comments>
       <source>{{post.origin}}</source>{% endif %}
-      <description><![CDATA[{{post.excerpt | xml_escape}}]]></description>
+      <description><![CDATA[{{post.excerpt }}]]></description>
       <link>{{ site.baseUrl }}{{ post.url }}</link>
       <category>{{ post.tags }}</category>
       <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
