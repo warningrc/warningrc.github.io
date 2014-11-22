@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: discuss
 title: 给我留言
 ---
 
