@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="stylesheet" type="text/css" href="/r/css/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/r/css/print.css" media="print">
+<!--     <link rel="stylesheet" type="text/css" href="/r/google-code-prettify/prettify.css"> -->
+    <!--[if lt IE 9]>
+    <script src="/r/js/html5.js"></script>
+    <![endif]-->
+    <title>{{ page.title }}</title>
+  </head>
+
+  <body>
+    <div id="container" class="inner">
+        {% include header.html %}
+        <section id="main_content">
+          <h1>{{page.title}}</h1>
+          {{ content }}
+        </section>
+        {% include discuss.html %}
+        {% include footer.html %}
+    </div>
+  </body>
+</html>
