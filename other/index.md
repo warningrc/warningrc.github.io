@@ -1,9 +1,9 @@
 ---
 layout: list
-title: Database
+title: Other
 ---
 
-{% for post in site.tags.db %}
+{% for post in site.tags.other %}
 <section id="{{ post.id }}" class="post">
   <h2><a href="{{ post.url }}"> {{ post.title }}</a></h2>
  <small class="meta">{{ post.date | date:"%Y/%m/%d" }}</small>
