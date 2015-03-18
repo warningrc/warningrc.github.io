@@ -1,0 +1,51 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #282828;
+  color: #eee;
+  font-family: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 10px 0;
+  font-weight: 200;
+}
+
+
+.container {
+  max-width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+/* MARKETING
+***************/
+
+.jumbotron {
+  position: relative;
+  padding: 3em 0;
+  text-align: center;
+  background: #242424;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-family: Rokkitt;
+  font-size: 13em;
+  font-weight: 200;
+  text-shadow: 0.025em 0.025em 0.025em rgba(0, 0, 0, 0.8);
+  visibility: hidden;
+}
+
+.jumbotron h1 .char11 {
+  color: #ED303C;
+}
+
