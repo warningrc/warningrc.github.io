@@ -9,3 +9,6 @@ copyrightTitle: CC BY-NC-SA 3.0 许可协议
 paginate: 5
 paginate_path: "page:num"
 excerpt_separator: "----"
+markdown: redcarpet
+redcarpet:
+    extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
