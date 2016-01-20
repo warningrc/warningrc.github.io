@@ -36,6 +36,9 @@ body {
   width: 900px;
   margin: 35px auto;
   padding: 25px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;                     
+  border-radius: 10px;
 }
 
 .inner img {
@@ -43,9 +46,6 @@ body {
 }
 
 .button {
-  -moz-border-radius: 30px;
-  -webkit-border-radius: 30px;                     
-  border-radius: 30px;
   border-top: solid 1px #cbcbcb;
   border-left: solid 1px #b7b7b7;
   border-right: solid 1px #b7b7b7;
@@ -91,6 +91,9 @@ body {
 .button a:hover {
   background: rgb(223, 218, 218);
   color: black;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;                     
+  border-radius: 30px;
 }
 #main_content{
   padding-top: 20px;
