@@ -4,9 +4,7 @@ title: 解决linux挂载其他硬盘lvm分区时VG重复问题
 tags: linux
 ---
 
-解决linux挂载其他硬盘lvm分区时VG重复问题
 
------ 
 
 问题：
 
@@ -16,6 +14,10 @@ tags: linux
       WARNING: Duplicate VG name vg_w: Existing nMjHCd-6EUR-66l4-y27E-n5is-i1Q4-ddqest (created here) takes precedence over Bju7iV-coBV-RZLb-SZX6-ol3Z-fO1A-bvSTw6
       Found volume group "vg_w" using metadata type lvm2
       Found volume group "vg_w" using metadata type lvm2
+
+
+----- 
+
       
 解决过程：
 
