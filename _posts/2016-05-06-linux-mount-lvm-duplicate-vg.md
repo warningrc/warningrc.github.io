@@ -45,6 +45,7 @@ tags: linux
         VG UUID               nMjHCd-6EUR-66l4-y27E-n5is-i1Q4-ddqest
 
 说明当前操作系统使用的`vg_w`的 `VG UUID` 是 `nMjHCd-6EUR-66l4-y27E-n5is-i1Q4-ddqest`，而`VG UUID`为`Bju7iV-coBV-RZLb-SZX6-ol3Z-fO1A-bvSTw6`是另一块硬盘的LVM分区。
+
 * 将第二块硬盘的VG名字重命名
 
         [root@w ~]# vgrename Bju7iV-coBV-RZLb-SZX6-ol3Z-fO1A-bvSTw6 vg_w1
