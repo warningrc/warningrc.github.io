@@ -6,8 +6,6 @@ tags: linux
 
 
 
------ 
-
 
 * 查询虚拟机
 
@@ -29,3 +27,7 @@ tags: linux
         vboxmanage controlvm hadoop1 pause  # 暂停虚拟机的运行
         vboxmanage controlvm hadoop1 resume   # 恢复暂停的虚拟机
         vboxmanage controlvm hadoop1 savestate   # 保存当前虚拟机的运行状态
+
+
+
+----- 
