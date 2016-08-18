@@ -6,9 +6,18 @@ authorUrl: http://weibo.com/weibowarning
 authorEmail: childe.wangning@gmail.com
 copyrightUrl: http://creativecommons.org/licenses/by-nc-sa/3.0/cn/
 copyrightTitle: CC BY-NC-SA 3.0 许可协议
-paginate: 5
+paginate: 20
 paginate_path: "page:num"
 excerpt_separator: "----"
-markdown: redcarpet
-redcarpet:
-    extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
+markdown: kramdown
+kramdown:
+  input: GFM
+  extensions:
+    - fenced_code_blocks
+    - no_intra_emphasis
+    - strikethrough
+    - autolink
+    - tables
+  use_coderay: false
+  syntax_highlighter: rouge
+  math_engine: mathjax

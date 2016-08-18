@@ -101,21 +101,19 @@ body {
 
 code, pre {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
-  color: #222;
   margin-bottom: 30px;
   font-size: 14px;
 }
 
 code {
-  background-color: #f2f2f2;
   border: solid 1px #ddd;
-  padding: 0 3px;
+  background: #002451;
+  text-shadow: none;
+  color: #ebbbff;
 }
 
 pre {
   padding: 20px;
-  background: #303030;
-  color: #f2f2f2;
   text-shadow: none;
   overflow: auto;
   white-space:pre-wrap;
@@ -123,10 +121,7 @@ pre {
   word-wrap:break-word;
 }
 pre code {
-  color: #f2f2f2;
-  background-color: #303030;
   border: none;
-  padding: 0;
 }
 
 ul, ol, dl {
@@ -250,16 +245,8 @@ footer a:hover {
   background: #aad2f0;
   margin: 35px auto;
 }
-.pagination{
-  text-align: right;
-}
-/* #Media Queries
-================================================== */
-
-/* Smaller than standard 960 (devices and browsers) */
+.pagination{text-align: right;}
 @media only screen and (max-width: 959px) {}
-
-/* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {}
 
 /* All Mobile Sizes (devices and browser) */
@@ -273,13 +260,10 @@ footer a:hover {
     margin: 0 auto;
   }
 }
-
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {}
-
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
-
 
 .ion-social-twitter:before {
 content: "\f243";

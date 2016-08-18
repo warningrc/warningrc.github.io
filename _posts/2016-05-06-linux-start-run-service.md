@@ -15,9 +15,12 @@ tags: linux
 
 ### `/etc/rc.d/rc.local`文件
 
-    vim /etc/rc.d/rc.local
-    #添加开机执行的命令
-    /usr/sbin/apachectl start
-    /etc/rc.d/init.d/mysqld start
-    /etc/rc.d/init.d/smb start
-    /usr/local/subversion/bin/svnserve -d
+```sh
+vim /etc/rc.d/rc.local
+#添加开机执行的命令
+/usr/sbin/apachectl start
+/etc/rc.d/init.d/mysqld start
+/etc/rc.d/init.d/smb start
+/usr/local/subversion/bin/svnserve -d
+
+```
