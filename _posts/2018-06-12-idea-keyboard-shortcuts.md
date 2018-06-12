@@ -4,6 +4,58 @@ title: IntelliJ IDEA 快捷键
 tags: idea java
 ---
 
+<table data-source-line="16">
+<tbody>
+<tr>
+<td style="text-align: center;">智能代码补全</td>
+<td style="text-align: center;">Ctrl + Shift + Space</td>
+<td style="text-align: center;">⌃⇧Space</td>
+</tr>
+<tr>
+<td style="text-align: center;">搜索全部</td>
+<td style="text-align: center;">Double Shift</td>
+<td style="text-align: center;">Double⇧</td>
+</tr>
+<tr>
+<td style="text-align: center;">显示意向行动和快速修复</td>
+<td style="text-align: center;">Alt + Enter</td>
+<td style="text-align: center;">⌘↩︎</td>
+</tr>
+<tr>
+<td style="text-align: center;">生成代码</td>
+<td style="text-align: center;">Alt + Insert</td>
+<td style="text-align: center;">⌘N,⌃↩︎</td>
+</tr>
+<tr>
+<td style="text-align: center;">参数信息</td>
+<td style="text-align: center;">Ctrl + P</td>
+<td style="text-align: center;">⌘P</td>
+</tr>
+<tr>
+<td style="text-align: center;">展开选择</td>
+<td style="text-align: center;">Ctrl + W</td>
+<td style="text-align: center;">⌥⌘↑</td>
+</tr>
+<tr>
+<td style="text-align: center;">搜索选择</td>
+<td style="text-align: center;">Ctrl + Shift + W</td>
+<td style="text-align: center;">⌥⌘↓</td>
+</tr>
+<tr>
+<td style="text-align: center;">最近文件弹出窗口</td>
+<td style="text-align: center;">Ctrl + E</td>
+<td style="text-align: center;">⌘E</td>
+</tr>
+<tr>
+<td style="text-align: center;">重命名</td>
+<td style="text-align: center;">Shift + F6</td>
+<td style="text-align: center;">⇧F6</td>
+</tr>
+</tbody>
+</table>
+
+---------
+
 ### 常规
 
 | 功能                       | Windows/Linux          | Mac   |
@@ -13,7 +65,7 @@ tags: idea java
 | 同步                       | Ctrl + Alt + Y         | ⌘⌥Y   |
 | 切换最大化编辑器           | Ctrl + Shift + F12     | ⌘⇧F12 |
 | 以当前配置文件检查当前文件 | Alt + Shift + I        | ⌥⇧I   |
-| 快速切换当前架构          | Ctrl + BackQuote(\`)   | ⌃\`   |
+| 快速切换当前架构          | Ctrl + BackQuote(\`)   | `⌃\``   |
 | 打开设置对话框             | Ctrl + Alt + S         | ⌘,    |
 | 打开项目结构对话框         | Ctrl + Alt + Shift + S | ⌘;    |
 | 查找活动                   | Ctrl + Shift  + A      | ⌘⇧A   |
