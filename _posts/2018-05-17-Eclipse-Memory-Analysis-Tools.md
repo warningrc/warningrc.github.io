@@ -5,9 +5,6 @@ tags: mat java
 ---
 
 
-Eclipse Memory Analysis Tools简单使用说明
-
-
 #### 打开dump文件
 
 菜单 > File > Open Heap Dump

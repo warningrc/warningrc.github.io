@@ -4,11 +4,6 @@ title: IntelliJ IDEA 快捷键
 tags: idea java
 ---
 
-
-
-IntelliJ IDEA 快捷键
-
-
 ### 常规
 
 | 功能                       | Windows/Linux          | Mac   |
