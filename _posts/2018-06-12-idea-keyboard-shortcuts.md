@@ -100,10 +100,12 @@ IntelliJ IDEA 快捷键
 | 选择至代码块结束/开始      | Ctrl + Shift + ] / \[    | ⌘⇧\]/⌘⇧\[ |
 | 删除至文字结束             | Ctrl  + Delete           | ⌥⌫        |
 | 删除至文字开始             | Ctrl + Backspace         | ⌥⌫        |
-| 展开/收缩代码块            | Ctrl + NumPad+ / -       |   ⌘+ / ⌘-         |
-| 全部展开                   | Ctrl + Shift + NumPad+   |   ⌘⇧+        |
-| 全部收缩                   | Ctrl + Shift + NumPad-   |   ⌘⇧-        |
+| 展开/收缩代码块            | Ctrl + NumPad+ / -       | ⌘+ / ⌘-   |
+| 全部展开                   | Ctrl + Shift + NumPad+   | ⌘⇧+       |
+| 全部收缩                   | Ctrl + Shift + NumPad-   | ⌘⇧-       |
 | 关闭活动的编辑器标签       | Ctrl + F4                | ⌘W        |
+
+
 -------------
 
 ### 重构
@@ -123,6 +125,8 @@ IntelliJ IDEA 快捷键
 | 提取字段 | Ctrl + Alt + F         | ⌘⌥F |
 | 提取常量 | Ctrl + Alt + C         | ⌘⌥C |
 | 提取参数 | Ctrl + Alt + P         | ⌘⌥P  |
+
+
 -------------
 
 ### 导航
@@ -159,6 +163,8 @@ IntelliJ IDEA 快捷键
 | 切换书签                       | Ctrl + F11               | ⌥F3       |
 | 跳转到带编号的书签             | Ctrl + #\[0-9\]          | ⌃0-⌃9     |
 | 显示书签                       | Shift + F11              | ⌘F3         |
+
+
 -------------
 
 ### 编译和运行
@@ -170,6 +176,8 @@ IntelliJ IDEA 快捷键
 | 选择配置并运行/调试        | Alt + Shift + F10/F9 | ⌃⌥R/D |
 | 运行/调试                  | Shift + F10/F9       | ⌃R/D  |
 | 从编辑器运行上下文配置     | Ctrl + Shift + F10   | ⌃⇧R,⌃⇧D    |
+
+
 -------------
 
 ### 搜索使用
@@ -180,6 +188,8 @@ IntelliJ IDEA 快捷键
 | 查找使用/在文件中查找使用 | Alt + F7 / Ctrl + F7 | ⌥F7/⌘F7 |
 | 高亮显示文件中的使用      | Ctrl + Shift + F7    | ⌘⇧F7    |
 | 显示使用                  | Ctrl + Alt + F7      | ⇧⌥F7    |
+
+
 -------------
 
 ### 版本控制/本地历史记录
@@ -191,6 +201,8 @@ IntelliJ IDEA 快捷键
 | 从VCS更新项目 | Ctrl + T            | ⌘T  |
 | 提交          | Ctrl + Shift + K    | ⌘⇧K |
 | 快速弹出VCS   | Alt + BackQuote(\`) | ⌃V  |
+
+
 -------------
 
 ### 动态模版
