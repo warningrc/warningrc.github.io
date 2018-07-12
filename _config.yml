@@ -18,6 +18,7 @@ kramdown:
     - strikethrough
     - autolink
     - tables
-  use_coderay: false
+  enable_coderay: false
   syntax_highlighter: rouge
   math_engine: mathjax
+plugins: [jekyll-paginate]
