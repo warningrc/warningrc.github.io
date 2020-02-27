@@ -7,7 +7,7 @@ tags: idea java
 <table data-source-line="16">
 <tbody>
 <tr>
-<td style="text-align: center;">智能代码补全dd</td>
+<td style="text-align: center;">智能代码补全</td>
 <td style="text-align: center;">Ctrl + Shift + Space</td>
 <td style="text-align: center;">⌃⇧Space</td>
 </tr>
@@ -60,7 +60,7 @@ tags: idea java
 
 | 功能 | Windows/Linux | Mac |
 |:---:|:---:|:---:|
-| 打开相应工具窗口xxx | Alt + #[0-9] | ⌘0-⌘9 |
+| 打开相应工具窗口 | Alt + #[0-9] | ⌘0-⌘9 |
 | 全部保存 | Ctrl + S | ⌘S |
 | 同步 | Ctrl + Alt + Y | ⌘⌥Y |
 | 切换最大化编辑器 | Ctrl + Shift + F12 | ⌘⇧F12 |
